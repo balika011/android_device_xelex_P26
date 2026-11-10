@@ -37,5 +37,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOOT_SECURITY_PATCH := 2024-03-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # Inherit the proprietary files
 include vendor/xelex/P26/BoardConfigVendor.mk
