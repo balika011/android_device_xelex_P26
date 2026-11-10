@@ -1,4 +1,5 @@
-mtk_touchscreen_hodafonehw.ko
+synaptics_dsx_core.ko
+synaptics_dsx_i2c.ko
 leds-gpio.ko
 zsmalloc.ko
 zram.ko
@@ -9,7 +10,6 @@ mtk-vow.ko
 mtk-scp-vow.ko
 mdp_drv_mt6789.ko
 mt63xx-oc-debug.ko
-synaptics_dsx_keyboard.ko
 clk-dbg-mt6789.ko
 mtk-ssc.ko
 mtk-ssc-dbg-v2.ko

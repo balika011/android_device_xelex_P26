@@ -91,7 +91,9 @@ blocktag.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
-aw95016.ko
+gpio-pca953x.ko
+matrix-keymap.ko
+gpio-matrix-keypad.ko
 regulator-vibrator.ko
 i2c-mt65xx.ko
 rtc-mt6397.ko
@@ -156,6 +158,5 @@ mtk-mbox-mailbox.ko
 irq-dbg.ko
 mtk-socinfo.ko
 upm6722.ko
-hodafone_battery.ko
 wl2868c-regulator.ko
 st21nfc.ko
